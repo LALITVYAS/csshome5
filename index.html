@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        .box {
+            border: 1px solid black; /* Adds a border to all divs */
+            padding: 10px;
+            border-radius: 10px;
+            margin: 20px auto;
+            width: 80%;
+        }
+        .box  div{
+            margin: 10px;
+            border: 1px solid black;
+            
+            width: 80%;
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div>I am a box</div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, excepturi? Provident minima iure expedita nihil fuga possimus animi praesentium sed.</div>
+        <div>
+            <ul>
+                <div><li>This list is a box</li></div>
+                <div><li>And all the list items in it are boxes</li></div>
+            </ul>
+        </div>
+        
+
+        <div >
+            Even buttons and links are boxes:
+            <div><button>Button</button></div>
+            <div><a href="links">Link</a></div>
+        </div>
+    </div>
+</body>
+</html>
